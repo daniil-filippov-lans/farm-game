@@ -2,7 +2,7 @@
     "editor.formatOnSave": true,
     "eslint.format.enable": true,
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+        "source.fixAll.eslint": "explicit"
     },
     "typescript.tsdk": "node_modules/typescript/lib",
     "[typescript]": {
@@ -17,5 +17,19 @@
         "**/bower_components": true,
         "**/*.code-search": true,
         "**/dist": true
+    },
+    "editor.renderWhitespace": "boundary",
+    "files.eol": "\n",
+    // "editor.codeActionsOnSave": {
+    //   "source.fixAll": true,
+    // },
+    "files.exclude": {
+        "node_modules/": true,
+        "prettierrc.json": true,
+        ".eslintignore": true,
+        ".eslintrc.json": true,
+        ".editorconfig": true,
+        ".gitignore": true,
+        ".vscode": true
     }
 }
